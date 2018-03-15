@@ -1,0 +1,11 @@
+@import '~assets/sass/variables';
+
+.home {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    background-color: $dark-home;
+    min-height: 100vh;
+
+}

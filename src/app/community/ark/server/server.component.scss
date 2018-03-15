@@ -1,0 +1,90 @@
+@import '~assets/sass/variables';
+@import url(//db.onlinewebfonts.com/c/bb02f404cdf44bf79de40692582f8a0f?family=Monofonto);
+
+.server {
+    font-family: 'Monofonto', monospace;
+    color: $pipboy-line;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    width: 100%;
+    background-color: $dark-home;
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: radial-gradient($pipboy-back-center, $pipboy-back-sides);
+        padding-bottom: $padding-top;
+        padding-top: $padding-top;
+        width: 70%;
+        min-height: 170px;
+        min-width: 325px;
+        border-radius: 1%;
+
+        &-card {
+            width: 70%;
+            min-height: 170px;
+            min-width: 300px;
+            border-radius: 10px;
+            border-top: 1px solid $pipboy-line;
+
+            &_title {
+                color: $pipboy-line;
+                margin-top: 40px;
+                font-size: 2rem;
+            }
+            &_subtitle {
+                display: flex;
+                flex-direction: column;
+                color: $pipboy-line;
+                font-size: 1.5rem;
+                margin-bottom: -40px;
+                a {
+                    &:visited, &:active, &:link{
+                        color: $pipboy-line;
+                        text-decoration: none;
+                    }
+                    &:hover {
+                        border: 1px solid $pipboy-line;
+                        color: $pipboy-back-sides;
+                        background-color: $pipboy-line;
+                        text-decoration: none;
+                    }
+                }
+            }
+            &_button {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin-top: 65px;
+                font-size: 1.5rem;
+                border-bottom: 1px solid $pipboy-line;
+                border-radius: 10px;
+
+                a {
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    margin-bottom: -18px;
+                    width: 5vw;
+                    min-width: 70px;
+                    background-color: $pipboy-back-sides;
+                    border: 1px solid rgba(0,0,0,0);
+                    cursor: pointer;
+
+                    &:visited, &:active, &:link{
+                        color: $pipboy-line;
+                        text-decoration: none;
+                    }
+
+                    &:hover {
+                        border: 1px solid $pipboy-line;
+                        color: $pipboy-back-sides;
+                        background-color: $pipboy-line;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

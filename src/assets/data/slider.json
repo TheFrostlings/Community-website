@@ -1,0 +1,24 @@
+{
+    "slides":
+    [
+        {
+            "description ":"Gamerstuff",
+            "small":"../../../assets/images/landscape1.png",
+            "medium":"../../../assets/images/landscape1.png",
+            "big":"../../../assets/images/landscape1landscape1.png"
+
+        },
+        {
+            "description ":"Non Gamerstuff",
+            "small":"../../../assets/images/landscape2.png",
+            "medium":"../../../assets/images/landscape2.png",
+            "big":"../../../assets/images/landscape2.png"
+        },
+        {
+            "description ":"Danny bla",
+            "small":"../../../assets/images/landscape3.png",
+            "medium":"../../../assets/images/landscape3.png",
+            "big":"../../../assets/images/landscape3.png"
+        }
+    ]
+}

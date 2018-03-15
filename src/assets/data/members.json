@@ -1,0 +1,531 @@
+{
+    "data": [
+        {
+            "type": "player",
+            "id": "3760753",
+            "attributes": {
+                "id": "3760753",
+                "name": "Koreth",
+                "createdAt": "2016-02-08T17:19:10.269Z",
+                "updatedAt": "2018-03-02T11:45:32.994Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-27T13:03:46.673Z",
+                                "lastSeen": "2018-03-02T11:45:32.994Z",
+                                "timePlayed": 31906,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "3621641",
+            "attributes": {
+                "id": "3621641",
+                "name": "Itbleedzz",
+                "createdAt": "2016-01-30T18:19:25.262Z",
+                "updatedAt": "2018-03-01T23:57:39.354Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-16T20:18:35.816Z",
+                                "lastSeen": "2018-03-01T23:57:39.354Z",
+                                "timePlayed": 358391,
+                                "online": true
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "168049347",
+            "attributes": {
+                "id": "168049347",
+                "name": "DerBoi",
+                "createdAt": "2017-01-28T09:08:37.770Z",
+                "updatedAt": "2018-03-01T23:28:02.104Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-17T18:33:59.589Z",
+                                "lastSeen": "2018-03-01T23:28:02.104Z",
+                                "timePlayed": 358784,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "41565524",
+            "attributes": {
+                "id": "41565524",
+                "name": "AgentMajestic",
+                "createdAt": "2016-06-11T20:31:51.185Z",
+                "updatedAt": "2018-03-01T06:22:28.865Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-26T19:26:31.746Z",
+                                "lastSeen": "2018-03-01T06:22:28.865Z",
+                                "timePlayed": 57858,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "354491911",
+            "attributes": {
+                "id": "354491911",
+                "name": "Vexx",
+                "createdAt": "2017-09-05T18:57:31.000Z",
+                "updatedAt": "2018-02-28T20:17:01.156Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-24T12:11:00.821Z",
+                                "lastSeen": "2018-02-28T20:17:01.156Z",
+                                "timePlayed": 1168,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "147081776",
+            "attributes": {
+                "id": "147081776",
+                "name": "spoonshortage",
+                "createdAt": "2017-01-02T13:58:03.338Z",
+                "updatedAt": "2018-02-28T17:40:37.090Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-27T20:25:29.950Z",
+                                "lastSeen": "2018-02-28T17:40:37.090Z",
+                                "timePlayed": 32884,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "2260898",
+            "attributes": {
+                "id": "2260898",
+                "name": "Nekojag",
+                "createdAt": "2015-11-22T20:31:19.508Z",
+                "updatedAt": "2018-02-28T00:14:55.156Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-16T19:17:24.928Z",
+                                "lastSeen": "2018-02-28T00:14:55.156Z",
+                                "timePlayed": 162242,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "430034357",
+            "attributes": {
+                "id": "430034357",
+                "name": "GuardianAngelz(t...",
+                "createdAt": "2017-12-17T15:32:08.216Z",
+                "updatedAt": "2018-02-27T23:36:45.340Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-16T19:17:24.928Z",
+                                "lastSeen": "2018-02-27T23:36:45.340Z",
+                                "timePlayed": 121002,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "487491596",
+            "attributes": {
+                "id": "487491596",
+                "name": "N1ghtw0lve",
+                "createdAt": "2018-02-18T01:41:08.447Z",
+                "updatedAt": "2018-02-27T23:36:45.340Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-18T01:41:08.447Z",
+                                "lastSeen": "2018-02-27T23:36:45.340Z",
+                                "timePlayed": 111383,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "441838932",
+            "attributes": {
+                "id": "441838932",
+                "name": "Nim",
+                "createdAt": "2017-12-30T01:45:38.428Z",
+                "updatedAt": "2018-03-01T23:59:25.570Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-16T23:15:07.931Z",
+                                "lastSeen": "2018-02-27T23:27:32.922Z",
+                                "timePlayed": 109961,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "230409",
+            "attributes": {
+                "id": "230409",
+                "name": "Gwynevere",
+                "createdAt": "2015-02-13T13:38:12.272Z",
+                "updatedAt": "2018-02-27T16:20:21.626Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-27T14:56:57.546Z",
+                                "lastSeen": "2018-02-27T16:20:21.626Z",
+                                "timePlayed": 5004,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "19400473",
+            "attributes": {
+                "id": "19400473",
+                "name": "Xili0n",
+                "createdAt": "2016-04-09T13:00:35.590Z",
+                "updatedAt": "2018-02-26T21:29:05.444Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-26T20:43:43.275Z",
+                                "lastSeen": "2018-02-26T21:29:05.444Z",
+                                "timePlayed": 2722,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "487588577",
+            "attributes": {
+                "id": "487588577",
+                "name": "Cojey",
+                "createdAt": "2018-02-18T04:34:05.328Z",
+                "updatedAt": "2018-02-26T20:43:43.275Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-18T04:34:05.328Z",
+                                "lastSeen": "2018-02-26T20:43:43.275Z",
+                                "timePlayed": 9184,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "493691639",
+            "attributes": {
+                "id": "493691639",
+                "name": "Koen",
+                "createdAt": "2018-02-25T03:19:20.628Z",
+                "updatedAt": "2018-03-02T02:39:19.849Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-25T13:27:37.272Z",
+                                "lastSeen": "2018-02-25T14:45:08.806Z",
+                                "timePlayed": 4652,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "473274426",
+            "attributes": {
+                "id": "473274426",
+                "name": "Koen",
+                "createdAt": "2018-02-01T20:55:00.283Z",
+                "updatedAt": "2018-02-24T17:10:23.204Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-17T13:58:58.120Z",
+                                "lastSeen": "2018-02-24T17:10:23.204Z",
+                                "timePlayed": 31340,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "2895755",
+            "attributes": {
+                "id": "2895755",
+                "name": "woupieta",
+                "createdAt": "2015-12-24T22:39:46.130Z",
+                "updatedAt": "2018-02-24T16:41:25.880Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-17T14:08:50.591Z",
+                                "lastSeen": "2018-02-24T16:41:25.880Z",
+                                "timePlayed": 42645,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "48568158",
+            "attributes": {
+                "id": "48568158",
+                "name": "TheCryosGurl",
+                "createdAt": "2016-06-29T22:09:53.222Z",
+                "updatedAt": "2018-02-23T19:45:50.203Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-23T18:18:42.285Z",
+                                "lastSeen": "2018-02-23T19:45:50.203Z",
+                                "timePlayed": 5228,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "type": "player",
+            "id": "2779059",
+            "attributes": {
+                "id": "2779059",
+                "name": "Marcooos",
+                "createdAt": "2015-12-19T00:10:16.114Z",
+                "updatedAt": "2018-02-23T11:16:06.018Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-21T12:56:37.025Z",
+                                "lastSeen": "2018-02-23T11:16:06.018Z",
+                                "timePlayed": 2959,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "links": {},
+    "included": [
+        {
+            "type": "server",
+            "id": "1995862",
+            "attributes": {
+                "id": "1995862",
+                "name": "Pure randomness - (v278.54)",
+                "ip": "86.138.195.213",
+                "port": 7777,
+                "players": 0,
+                "maxPlayers": 70,
+                "rank": 3545,
+                "location": [
+                    -0.2383,
+                    51.4797
+                ],
+                "status": "online",
+                "details": {
+                    "modIds": [
+                        "772235118",
+                        "569786012",
+                        "600705968",
+                        "731604991"
+                    ],
+                    "modHashes": [
+                        "2484AA43457FABF9535610AFF940648B",
+                        "1582FD5D48887EF7316F508A6FDB4AF0",
+                        "980A751443037F2445B99B9CE482EC38",
+                        "EBEB837C479E906C503AAFB20F85079D"
+                    ],
+                    "map": "TheCenter",
+                    "time": "115",
+                    "offical": false,
+                    "official": false,
+                    "gamemode": "TestGameMode_GenericMod_MyMod_C",
+                    "modNames": [
+                        "S.R.S - Rebalanced Stacks",
+                        "Meat Spoiler",
+                        "ORP2 - Offline Raid Protection v08.06.17.39",
+                        "Structures Plus (S+)"
+                    ],
+                    "serverSteamId": "90113617256976394"
+                },
+                "createdAt": "2018-02-16T19:07:16.517Z",
+                "updatedAt": "2018-03-02T12:28:35.840Z",
+                "portQuery": 27015,
+                "country": "GB"
+            },
+            "relationships": {
+                "game": {
+                    "data": {
+                        "type": "game",
+                        "id": "ark"
+                    }
+                }
+            }
+        }
+    ]
+}

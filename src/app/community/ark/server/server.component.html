@@ -1,0 +1,29 @@
+<div class="server">
+    <div class="server-container">
+        <div class="server-container-card">
+            <div class="server-container-card_title">
+                <span>Server Name: {{server.attributes.name}}</span>
+            </div>
+            <div class="server-container-card_subtitle">
+                <span>IP: {{server.attributes.ip +':'+ server.attributes.port}}</span>
+                <span>Players Online: {{server.attributes.players +'/'+ server.attributes.maxPlayers}}</span>
+                <span>Server Rank: {{server.attributes.rank}}</span>
+                <span>Status: {{server.attributes.status}}</span>
+                <span>Country: {{server.attributes.country}}</span>
+            </div>
+            <div class="server-container-card_title">
+                <span>Details</span>
+            </div>
+            <div class="server-container-card_subtitle">
+                <span>Map: {{server.attributes.details.map}}</span>
+                <span>Mods:</span>
+                <div *ngFor="let mod of server.attributes.details.modNames; let i = index" [attr.data-index]="i">
+                    <a href="http://steamcommunity.com/sharedfiles/filedetails/?id={{server.attributes.details.modIds[i]}}"><span> >{{mod}}</span></a>
+                </div>
+            </div>
+            <div class="server-container-card_button">
+                <a href="steam://connect/86.138.195.213:27015"><span>Join</span></a>
+            </div>
+        </div>
+    </div>
+</div>

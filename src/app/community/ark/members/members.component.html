@@ -1,0 +1,14 @@
+<div class="members">
+    <div class="members-container">
+        <div class="members-container-card" *ngFor="let member of members | sortName : 'attributes' | sortOnline : 'relationships' " [style.color]="getColor(member.relationships.servers.data[0].meta.online)">
+            <div class="members-container-card_title">
+                <span>{{member.attributes.name}}</span>
+            </div>
+            <!-- <div class="members-container-card_image" [style.backgroundImage]="'url('+member.image+')'"></div> -->
+            <div class="members-container-card_about">
+                <span><b>Status:</b> {{member.relationships.servers.data[0].meta.online ? "Online" : "Offline"}}</span>
+                <span><b>Time played:</b> {{ getTime(member.relationships.servers.data[0].meta.timePlayed) }}</span>
+            </div>
+        </div>
+    </div>
+</div>
