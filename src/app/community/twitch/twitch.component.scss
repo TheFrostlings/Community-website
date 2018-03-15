@@ -1,0 +1,52 @@
+@import '~assets/sass/variables';
+@import '~assets/sass/mixins';
+
+.twitch {
+    display: flex;
+    flex-direction: row;
+    background-color: $dark-home;
+    padding-top: 10vh;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    //align-items: center;
+    &-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 80vw;
+        height: 100%;
+        flex-wrap: wrap;
+        &-user {
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+            &_iframe {
+                min-height: 100px;
+                height: 40vh;
+                width: 100%;
+                min-width: 100px;
+            }
+        }
+    }
+    &-container-chat {
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        &_iframe {
+            height: 80vh;
+            width: 100%;
+        }
+    }
+    .titles {
+        align-self: center;
+        padding-bottom: $padding-top;
+        padding-top: $padding-top;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+    }
+    .hidden {
+        display: none;
+    }
+}

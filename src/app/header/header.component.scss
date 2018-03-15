@@ -1,0 +1,97 @@
+@import '~assets/sass/variables';
+@import '~assets/sass/mixins';
+@import url(//db.onlinewebfonts.com/c/bb02f404cdf44bf79de40692582f8a0f?family=Monofonto);
+
+.header {
+    font-family: 'Monofonto', monospace;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 10vh;
+    background: rgba($dark-header, 0.6);
+    z-index: 1001;
+    &-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        color: white;
+        @include tablet {
+            width: 100%;
+        }
+        &_item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            height: 100%;
+            width: 150px;
+            font-size: 2rem;
+            cursor: pointer;
+            &:focus {outline:0;}
+            &:hover {
+                color: rgba(red, 1);
+            }
+        }
+        .drop-down {
+            display: flex;
+            flex-direction: column;
+            align-items:  stretch;
+            justify-content: flex-end;
+            height: 100%;
+            align-self: flex-start;
+            &-item {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 150px;
+                font-size: 2rem;
+                cursor: pointer;
+                &:focus {outline:0;}
+                &:hover {
+                    color: rgba(red, 1);
+                }
+            }
+            .menu-hidden {
+                display: none;
+            }
+            &-sub {
+                display: flex;
+                align-self: baseline;
+                height: 0%;
+                flex-direction: column;
+                font-size: 2rem;
+                width: 150px;
+
+                &_item {
+                    text-align: center;
+                    width: 100%;
+                    height: 100px;
+                    background: rgba($dark-header, 0.6);
+                    border-left: 1px solid black;
+                    border-right: 1px solid black;
+                    cursor: pointer;
+                    &:focus {outline:0;}
+
+                    &:hover {
+                        background: rgba($dark-header, 1);
+                        color: rgba(red, 1);
+                    }
+                }
+                &_item:last-child {
+                    border-bottom: 1px solid black;
+                }
+
+            }
+        }
+        &_logo {
+            height: 6vh;
+        }
+    }
+}
