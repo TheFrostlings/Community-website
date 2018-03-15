@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ServerService } from '../../../services/server.service';
 import { Ark } from '../../../interface/ark';
 import { SortOnlinePipe } from '../../../pipes/sort-online.pipe';
