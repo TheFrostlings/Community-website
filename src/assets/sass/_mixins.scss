@@ -19,3 +19,103 @@ $desktop-width: 1024px;
     @content;
   }
 }
+
+@mixin angle-edge($pos-top:null, $angle-top:null, $pos-btm:null, $angle-btm:null){
+  width: 100%;
+  position: relative;
+  background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  &::before,
+  &::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    transition: ease all .5s;
+  }
+
+  @if $pos-top{
+    &::before{
+      @if $pos-top == 'topleft'{
+        top: 0;
+        transform-origin: right top;
+        transform: skewY($angle-top);
+      }
+      @if $pos-top == 'topright' {
+        top: 0;
+        transform-origin: left top;
+        transform: skewY(-$angle-top);
+      }
+    }
+  }
+
+  @if $pos-btm{
+    &::after{
+      @if $pos-btm == 'bottomleft' {
+        bottom: 0;
+        transform-origin: right bottom;
+        transform: skewY(-$angle-btm);
+
+      }
+
+      @if $pos-btm == 'bottomright' {
+        bottom: 0;
+        transform-origin: left bottom;
+        transform: skewY($angle-btm);
+      }
+    }
+  }
+}
+
+@mixin skewLeft($side: left, $deg: -20deg, $right: -15px, $left: -15px, $width: 30px, $bg: #fff) {
+    position: relative;
+
+    &:before {
+        z-index: 1;
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+
+        @if $side == right {
+            right: $right;
+        }
+        @else if $side == left {
+            left: $left;
+        }
+
+        display: block;
+        width: $width;
+        background: $bg;
+        -webkit-transform: skew($deg);
+            -ms-transform: skew($deg);
+                transform: skew($deg);
+    }
+}
+
+@mixin skewRight($side: right, $deg: -20deg, $right: -15px, $left: -15px, $width: 30px, $bg: #fff) {
+    position: relative;
+
+    &:after {
+        z-index: 1;
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+
+        @if $side == right {
+            right: $right;
+        }
+        @else if $side == left {
+            left: $left;
+        }
+
+        display: block;
+        width: $width;
+        background: $bg;
+        -webkit-transform: skew($deg);
+            -ms-transform: skew($deg);
+                transform: skew($deg);
+    }
+}

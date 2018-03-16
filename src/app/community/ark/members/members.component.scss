@@ -2,7 +2,7 @@
 @import '~assets/sass/mixins';
 
 .members {
-    background-color: $dark-home;
+    background-color: $light-blue;
 
     &-container {
         display: flex;
@@ -14,7 +14,7 @@
 
         &-card {
             display: flex;
-            background-color: $grey;
+            background-color: $white;
             min-width: 300px;
             width: 95%;
             border-radius: 10px;

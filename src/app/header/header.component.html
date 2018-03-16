@@ -1,22 +1,8 @@
 <header>
-    <div class="header">
-        <div class="header-container">
-            <div routerLink="/home" class="header-container_item">HOME</div>
-            <div routerLink="/members" class="header-container_item">MEMBERS</div>
-            <div routerLink="/forums" class="header-container_item">FORUMS</div>
+    <div class="header right-skew">
+        <div routerLink="/home" class="header_item">HOME</div>
+        <div routerLink="/ark" class="header_item">ARK</div>
 
-            <img class="header-container_logo" src="{{imageLogoPath}}">
-            <div class="drop-down" (mouseenter)="menuIsOpen = !menuIsOpen" (mouseleave)="menuIsOpen = !menuIsOpen">
-                <div routerLink="/community" class="drop-down-item">
-                    COMMUNITY
-                </div>
-                <div class="drop-down-sub" [ngClass]="menuIsOpen ? '' : 'menu-hidden'">
-                    <div routerLink="/ark" class="drop-down-sub_item">Ark</div>
-                    <div routerLink="/twitch" class="drop-down-sub_item">Twitch</div>
-                </div>
-            </div>
-            <div routerLink="/events" class="header-container_item">EVENTS</div>
-            <div routerLink="/donate" class="header-container_item">DONATE</div>
-        </div>
+        <div routerLink="/twitch" class="header_item">TWITCH</div>
     </div>
 </header>
