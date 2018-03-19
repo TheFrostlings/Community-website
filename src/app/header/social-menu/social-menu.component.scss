@@ -49,12 +49,12 @@
             display: flex;
             font-weight: 900;
             font-size: 20px;
-            color: $global-light-grey;
+            color: $social-media;
             &_item {
                 margin-left: 10px;
                 color: inherit;
                 &:hover {
-                    color: $global-pink;
+                    color: $social-media-hover;
                 }
             }
         }

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 //font
 $font-fam: 'Dosis', sans-serif;
@@ -40,7 +39,8 @@ $main-container: $global-dark-grey;
     $social-item-text: $global-white;
     $social-item-text-hover: $global-pink;
     $social-date-text: $global-light-grey;
-
+    $social-media: $global-light-grey;
+    $social-media-hover: $global-pink;
 
     //Menu
     $menu-item: $global-grey;
