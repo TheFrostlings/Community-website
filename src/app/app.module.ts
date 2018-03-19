@@ -31,6 +31,7 @@ import { SortNamePipe }         from './pipes/sort-name.pipe';
 import { DiscordComponent }     from './home/discord/discord.component';
 import { TwitchComponent }      from './community/twitch/twitch.component';
 import { SafePipe }             from './pipes/safe.pipe';
+import { SocialMenuComponent } from './header/social-menu/social-menu.component';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -59,7 +60,8 @@ const appRoutes: Routes = [
     SortNamePipe,
     DiscordComponent,
     TwitchComponent,
-    SafePipe
+    SafePipe,
+    SocialMenuComponent
   ],
   imports: [
     BrowserModule,

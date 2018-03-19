@@ -1,13 +1,6 @@
-\<div class="menu" [ngClass]="menuIsOpen ? '' : 'menu-hidden'">
-    <div class="menu-list">
-        <div routerLink="/home" class="header-container_item">HOME</div>
-        <div routerLink="/members" class="header-container_item">MEMBERS</div>
-        <div routerLink="/forums" class="header-container_item">FORUMS</div>
 
-        <img class="header-container_logo" src="{{imageLogoPath}}">
-
-        <div routerLink="/ark-server" class="header-container_item">COMMUNITY</div>
-        <div routerLink="/events" class="header-container_item">EVENTS</div>
-        <div routerLink="/donate" class="header-container_item">DONATE</div>
+    <div class="header right-skew">
+        <div routerLink="/home" class="header_item"><span class="header_item-span">HOME</span></div>
+        <div routerLink="/ark" class="header_item"><span class="header_item-span">ARK</span></div>
+        <div routerLink="/twitch" class="header_item"><span class="header_item-span">TWITCH</span></div>
     </div>
-</div>

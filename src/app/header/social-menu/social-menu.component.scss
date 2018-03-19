@@ -1,0 +1,47 @@
+@import '~assets/sass/variables';
+@import '~assets/sass/mixins';
+
+.social {
+    display: flex;
+    height: 70px;
+    box-shadow:rgba(0,0,0,0.3) 0 12px 15px;
+    justify-content: center;
+
+    &-container{
+        display: flex;
+        width: 1070px;
+        align-items: center;
+        &-update {
+            transform: skewX(-10deg);
+            font-family: $font-fam;
+            font-weight: 900;
+            font-size: 12px;
+            background-color: $social-update;
+            text-transform: uppercase;
+            padding: 1px 10px;
+            &_item {
+                display: inline-block;
+                transform: skewX(10deg);
+            }
+        }
+        &-news {
+            margin-left: 20px;
+            font-family: $font-fam;
+            font-weight: 900;
+            font-size: 15px;
+            &_item {
+                color: $social-item-text;
+                cursor: pointer;
+
+                &:hover {
+                    color: $social-item-text-hover;
+                }
+            }
+            &_date {
+                margin-left: 10px;
+                color: $social-date-text;
+                cursor: pointer;
+            }
+        }
+    }
+}
