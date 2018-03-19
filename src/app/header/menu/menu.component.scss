@@ -6,7 +6,7 @@
     flex-direction: row;
     margin: 0 auto;
     width: 1070px;
-    height: 70px;
+    height: 75px;
 
     @include skewLeft($side: left, $bg: $global-pink, $deg: -10deg, $right: 0, $width: 10px);
 
@@ -16,7 +16,6 @@
         cursor: pointer;
         background: $menu-item;
         color: $menu-text;
-        height: 75px;
         text-transform: uppercase;
         padding: 0 20px;
         transition: 400ms ease;

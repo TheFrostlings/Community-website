@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 //font
 $font-fam: 'Dosis', sans-serif;
@@ -19,10 +20,13 @@ $ark-yellow: #e6f13d;
 $ark-orange: #eda338;
 
 //Colors
-$global-dark-grey: #161616;
 $global-white: #fff;
 $global-black: #000;
-$global-grey: #989898;
+
+$global-light-grey: #989898;
+$global-grey: #282828;
+$global-dark-grey: #161616;
+
 $global-pink: #FD2850;
 $global-light-blue: lightblue;
 
@@ -35,13 +39,13 @@ $main-container: $global-dark-grey;
     $social-update: $global-pink;
     $social-item-text: $global-white;
     $social-item-text-hover: $global-pink;
-    $social-date-text: $global-grey;
+    $social-date-text: $global-light-grey;
 
 
     //Menu
-    $menu-item: #282828;
+    $menu-item: $global-grey;
     $menu-hover: $global-pink;
-    $menu-text:  $global-grey;
+    $menu-text:  $global-light-grey;
     $menu-border: $global-dark-grey;
     $menu-hover-text: $global-black;
 
@@ -56,4 +60,4 @@ $ark-main: $global-light-blue;
 
 //Login
 $login-container: $global-white;
-$login-border: $global-grey;
+$login-border: $global-light-grey;

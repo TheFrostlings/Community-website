@@ -1,15 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-social-menu',
-  templateUrl: './social-menu.component.html',
-  styleUrls: ['./social-menu.component.scss']
+    selector: 'app-social-menu',
+    templateUrl: './social-menu.component.html',
+    styleUrls: ['./social-menu.component.scss']
 })
 export class SocialMenuComponent implements OnInit {
 
-  constructor() { }
+    today: number;
 
-  ngOnInit() {
-  }
+    constructor() { }
+
+    getDateToday() {
+        this.today = Date.now();
+    }
+    ngOnInit() {
+        this.getDateToday();
+    }
 
 }

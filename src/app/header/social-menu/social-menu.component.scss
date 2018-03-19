@@ -7,10 +7,11 @@
     box-shadow:rgba(0,0,0,0.3) 0 12px 15px;
     justify-content: center;
 
-    &-container{
+    &-container {
         display: flex;
         width: 1070px;
         align-items: center;
+        justify-content: flex-start;
         &-update {
             transform: skewX(-10deg);
             font-family: $font-fam;
@@ -25,6 +26,7 @@
             }
         }
         &-news {
+            width: 100%;
             margin-left: 20px;
             font-family: $font-fam;
             font-weight: 900;
@@ -41,6 +43,19 @@
                 margin-left: 10px;
                 color: $social-date-text;
                 cursor: pointer;
+            }
+        }
+        &-media {
+            display: flex;
+            font-weight: 900;
+            font-size: 20px;
+            color: $global-light-grey;
+            &_item {
+                margin-left: 10px;
+                color: inherit;
+                &:hover {
+                    color: $global-pink;
+                }
             }
         }
     }
