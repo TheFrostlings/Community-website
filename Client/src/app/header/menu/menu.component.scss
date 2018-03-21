@@ -1,70 +1,46 @@
 @import '~assets/sass/variables';
+@import '~assets/sass/mixins';
 
-.hamburger {
+.header {
+    position: absolute;
+    top:-37px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 6vh;
-    width: 6vh;
-    &-container {
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1070px;
+    height: 75px;
+
+    @include skewLeft($side: left, $bg: $global-pink, $deg: -10deg, $right: 0, $width: 10px);
+
+    &_item {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
-        height: 80%;
-        width: 80%;
         cursor: pointer;
-        transition: 0.9s;
-        border-radius: 100px;
+        background: $menu-item;
+        color: $menu-text;
+        text-transform: uppercase;
+        padding: 0 20px;
+        transition: 400ms ease;
+        transform: skewX(-10deg);
+        border-left: 2px solid $menu-border;
+        overflow: hidden;
+
+        &-span {
+            font-family: 'Dosis', sans-serif;
+            font-weight: 900;
+            font-size: 20px;
+            transform: skewX(10deg);
+            display: inline-block;
+        }
+        &:first-child {
+            margin-left: -5px;
+        }
+        &:focus {
+            outline: 0;
+        }
         &:hover {
-            transition: 0.9s;
-            background-color: $azul;
-            .hamburger-container_icon {
-                transition: 0.2s;
-            }
-        }
-        &_icon {
-            transition: 0.2s;
-            display: block;
-            width: 18px;
-            height: 2px;
-            background-color: $white;
-            margin: 1px 0;
+            background-color: $menu-hover;
+            color: $menu-hover-text;
         }
     }
-
-}
-.menu {
-    position: fixed;
-    display: flex;
-    z-index: 100000;
-    height: 94vh;
-    width: 30vh;
-    background-color: $light-header;
-    transition: left 0.6s;
-    left: 0;
-    &-hidden {
-        transition: left 0.6s;
-        left: -30vh;
-    }
-    &-list {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        &_item {
-            text-align: center;
-            cursor: pointer;
-            font-size: 2em;
-            color: $white;
-            transition: 1s;
-            &:hover {
-                transition: 1s;
-                background-color: $azul;
-                color: $light-grey;
-            }
-        }
-    }
-
 }

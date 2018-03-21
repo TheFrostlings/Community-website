@@ -15,6 +15,8 @@ import { TwitchService }        from './services/twitch.service';
 
 import { HeaderComponent }      from './header/header.component';
 import { MenuComponent }        from './header/menu/menu.component';
+import { LogoMenuComponent }    from './header/logo-menu/logo-menu.component';
+import { SocialMenuComponent }  from './header/social-menu/social-menu.component';
 
 import { LoginComponent }       from './login/login.component';
 
@@ -27,10 +29,11 @@ import { ServerComponent }      from './community/ark/server/server.component';
 
 import { SortOnlinePipe }       from './pipes/sort-online.pipe';
 import { SortNamePipe }         from './pipes/sort-name.pipe';
+import { SafePipe }             from './pipes/safe.pipe';
 
 import { DiscordComponent }     from './home/discord/discord.component';
 import { TwitchComponent }      from './community/twitch/twitch.component';
-import { SafePipe }             from './pipes/safe.pipe';
+
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -59,7 +62,9 @@ const appRoutes: Routes = [
     SortNamePipe,
     DiscordComponent,
     TwitchComponent,
-    SafePipe
+    SafePipe,
+    SocialMenuComponent,
+    LogoMenuComponent
   ],
   imports: [
     BrowserModule,

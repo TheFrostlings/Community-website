@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "name": "dead-end-crew-website"
+    "name": "The-Frostling-website"
   },
   "apps": [
     {
@@ -19,8 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "assets/styles.scss",
-        "../node_modules/font-awesome/css/font-awesome.css"
+        "assets/styles.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

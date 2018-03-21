@@ -2,33 +2,6 @@
 @import '~assets/sass/mixins';
 
 header{
-    background: #181818;
-    .header {
-        display: flex;
-        flex-direction: row;
-        margin: 0 auto;
-        width: 1000px;
-        height: 70px;
-
-        @include skewLeft($side: left, $bg: #FD2850, $deg: -10deg, $right: 0, $width: 10px);
-
-        &_item {
-            display: flex;
-            align-items: center;
-            background: #282828;
-            color: $grey;
-            height: 100%;
-            font-size: 20px;
-            margin-right: 29px;
-            padding: 20px;
-            @include skewLeft($bg: #282828, $deg: -10deg, $left: -13px, $width: 20px);
-            @include skewRight($bg: #282828, $deg: -10deg, $right: -13px, $width: 20px);
-            &:first-child {
-                margin-left: 12px;
-            }
-        }
-    }
-    // .right-skew {
-    //     @include skew($side: left, $bg: red, $deg: -10deg, $right: -60px, $width: 15px);
-    // }
+    background: $main-container;
+    margin-bottom: -38px;
 }
