@@ -43,7 +43,7 @@ Thumbs.db
 /Server/bin
 /Server/obj
 
- # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+ # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                                                               #
 #         ██████╗██╗     ██╗███████╗███╗   ██╗████████╗         #
 #        ██╔════╝██║     ██║██╔════╝████╗  ██║╚══██╔══╝         #
@@ -64,6 +64,7 @@ Thumbs.db
 /Client/node_modules
 
 # misc
+/Client/package-lock.json
 /Client/.sass-cache
 /Client/connect.lock
 /Client/coverage
