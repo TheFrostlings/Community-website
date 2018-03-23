@@ -1,0 +1,21 @@
+<app-header></app-header>
+<div class="twitch">
+
+    <div class="twitch-container">
+        <div class="twitch-container-user" *ngFor="let twitchObj of twitch">
+            <iframe class="twitch-container-user_iframe" [src]="getTwitchLink(twitchObj.name) | safe" frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+        </div>
+    </div>
+
+    <div class="twitch-container-chat">
+        <div class="twitch-container-chat">
+            <select (change)="onChange($event.target.value)">
+                <option *ngFor="let twitchObj of twitch">{{twitchObj.name}}</option>
+            </select>
+            <div *ngFor="let twitchObj of twitch">
+                <iframe class="twitch-container-chat_iframe" [ngClass]=" getTwitchChatLink(twitchObj.name) !== chatLink ? 'hidden' : '' " [src]="(getTwitchChatLink(twitchObj.name) | safe)" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </div>
+
+</div>

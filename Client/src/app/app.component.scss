@@ -1,0 +1,11 @@
+// src/app/app.component.scss
+
+@import '~assets/sass/variables';
+
+// now we can use those variables!
+html, body {
+    background-color: $main-container;
+    overflow-x: hidden;
+    max-width: 100%;
+    overflow-x: hidden;
+}

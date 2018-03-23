@@ -1,0 +1,47 @@
+@import '~assets/sass/variables';
+@import '~assets/sass/mixins';
+
+.members {
+    background-color: $member-container;
+
+    &-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-wrap: wrap;
+        color: $member-container-text;
+
+        &-card {
+            display: flex;
+            background-color: $member-card;
+            min-width: 300px;
+            width: 95%;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 10px;
+
+            @include mobile {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            &_title {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 2rem;
+                width: 25%;
+            }
+
+            &_about {
+                align-self: center;
+                color: $member-card-about;
+
+                span {
+                    width: 10%;
+                }
+            }
+        }
+    }
+
+}

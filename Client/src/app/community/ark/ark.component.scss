@@ -1,0 +1,29 @@
+@import '~assets/sass/variables';
+@import '~assets/sass/mixins';
+
+.ark {
+    display: flex;
+    flex-direction: column;
+    background-color: $ark-main;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    &-container {
+        margin-top: 10vh;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        @include mobile {
+            flex-direction: column-reverse;
+        }
+    }
+    .titles {
+        align-self: center;
+        padding-bottom: $padding-top;
+        padding-top: $padding-top;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+    }
+}

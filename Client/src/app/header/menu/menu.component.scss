@@ -1,0 +1,46 @@
+@import '~assets/sass/variables';
+@import '~assets/sass/mixins';
+
+.header {
+    position: absolute;
+    top:-37px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 1070px;
+    height: 75px;
+
+    @include skewLeft($side: left, $bg: $global-pink, $deg: -10deg, $right: 0, $width: 10px);
+
+    &_item {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        background: $menu-item;
+        color: $menu-text;
+        text-transform: uppercase;
+        padding: 0 20px;
+        transition: 400ms ease;
+        transform: skewX(-10deg);
+        border-left: 2px solid $menu-border;
+        overflow: hidden;
+
+        &-span {
+            font-family: 'Dosis', sans-serif;
+            font-weight: 900;
+            font-size: 20px;
+            transform: skewX(10deg);
+            display: inline-block;
+        }
+        &:first-child {
+            margin-left: -5px;
+        }
+        &:focus {
+            outline: 0;
+        }
+        &:hover {
+            background-color: $menu-hover;
+            color: $menu-hover-text;
+        }
+    }
+}

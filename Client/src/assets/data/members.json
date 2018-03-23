@@ -1,0 +1,89 @@
+{
+    "data": [
+        {
+            "type": "player",
+            "id": "3760753",
+            "attributes": {
+                "id": "3760753",
+                "name": "Koreth",
+                "createdAt": "2016-02-08T17:19:10.269Z",
+                "updatedAt": "2018-03-02T11:45:32.994Z"
+            },
+            "relationships": {
+                "servers": {
+                    "data": [
+                        {
+                            "type": "server",
+                            "id": "1995862",
+                            "meta": {
+                                "firstSeen": "2018-02-27T13:03:46.673Z",
+                                "lastSeen": "2018-03-02T11:45:32.994Z",
+                                "timePlayed": 31906,
+                                "online": false
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "links": {},
+    "included": [
+        {
+            "type": "server",
+            "id": "1995862",
+            "attributes": {
+                "id": "1995862",
+                "name": "Pure randomness - (v278.54)",
+                "ip": "86.138.195.213",
+                "port": 7777,
+                "players": 0,
+                "maxPlayers": 70,
+                "rank": 3545,
+                "location": [
+                    -0.2383,
+                    51.4797
+                ],
+                "status": "online",
+                "details": {
+                    "modIds": [
+                        "772235118",
+                        "569786012",
+                        "600705968",
+                        "731604991"
+                    ],
+                    "modHashes": [
+                        "2484AA43457FABF9535610AFF940648B",
+                        "1582FD5D48887EF7316F508A6FDB4AF0",
+                        "980A751443037F2445B99B9CE482EC38",
+                        "EBEB837C479E906C503AAFB20F85079D"
+                    ],
+                    "map": "TheCenter",
+                    "time": "115",
+                    "offical": false,
+                    "official": false,
+                    "gamemode": "TestGameMode_GenericMod_MyMod_C",
+                    "modNames": [
+                        "S.R.S - Rebalanced Stacks",
+                        "Meat Spoiler",
+                        "ORP2 - Offline Raid Protection v08.06.17.39",
+                        "Structures Plus (S+)"
+                    ],
+                    "serverSteamId": "90113617256976394"
+                },
+                "createdAt": "2018-02-16T19:07:16.517Z",
+                "updatedAt": "2018-03-02T12:28:35.840Z",
+                "portQuery": 27015,
+                "country": "GB"
+            },
+            "relationships": {
+                "game": {
+                    "data": {
+                        "type": "game",
+                        "id": "ark"
+                    }
+                }
+            }
+        }
+    ]
+}

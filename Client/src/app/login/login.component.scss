@@ -1,0 +1,27 @@
+@import '~assets/sass/variables';
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: $main-container;
+    &-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+        width: 40vh;
+        background-color: $login-container;
+        border: 1px solid $login-border;
+        border-radius: 2vh;
+        &_title {
+            font-size: 2em;
+        }
+        &_input {
+            border-radius: 2vh;
+        }
+    }
+}
