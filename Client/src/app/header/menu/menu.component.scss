@@ -3,14 +3,14 @@
 
 .header {
     position: absolute;
-    top:-37px;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
     width: 1070px;
-    height: 75px;
+    height: 70px;
+    z-index: 100;
 
-    @include skewLeft($side: left, $bg: $global-pink, $deg: -10deg, $right: 0, $width: 10px);
+    @include skewLeft($side: left, $bg: $menu-scew, $deg: -10deg, $right: 0, $width: 10px);
 
     &_item {
         display: flex;
@@ -19,16 +19,15 @@
         background: $menu-item;
         color: $menu-text;
         text-transform: uppercase;
-        padding: 0 20px;
+        padding: 0 40px;
         transition: 400ms ease;
         transform: skewX(-10deg);
         border-left: 2px solid $menu-border;
-        overflow: hidden;
 
         &-span {
-            font-family: 'Dosis', sans-serif;
+            font-family: $font-fam;
             font-weight: 900;
-            font-size: 20px;
+            font-size: 18px;
             transform: skewX(10deg);
             display: inline-block;
         }

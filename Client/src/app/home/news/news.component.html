@@ -1,0 +1,10 @@
+<div class="news">
+    <div class="news-item" *ngFor="let item of news" [ngStyle]="{'background-image': 'url('+item.image+')'}">
+        <div class="news-item-box" >
+            <h2 class="news-item-box_title"><span>{{item.title}}</span></h2>
+            <div class="news-item-box_date"><span>{{item.attributes.updatedAt | date}}</span></div>
+            <div class="news-item-box_game"><span>{{item.relationships.game}}</span></div>
+            <div class="news-item-box_preview"><span>{{item.previewText}}</span></div>
+        </div>
+    </div>
+</div>

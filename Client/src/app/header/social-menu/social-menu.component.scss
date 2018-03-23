@@ -19,7 +19,7 @@
             font-size: 12px;
             background-color: $social-update;
             text-transform: uppercase;
-            padding: 1px 10px;
+            padding: 0 9px;
             &_item {
                 display: inline-block;
                 transform: skewX(10deg);
@@ -30,7 +30,7 @@
             margin-left: 20px;
             font-family: $font-fam;
             font-weight: 900;
-            font-size: 15px;
+            font-size: 14px;
             &_item {
                 color: $social-item-text;
                 cursor: pointer;
@@ -40,6 +40,8 @@
                 }
             }
             &_date {
+                font-size: 12px;
+                font-family: $font-date;
                 margin-left: 10px;
                 color: $social-date-text;
                 cursor: pointer;
@@ -59,7 +61,7 @@
             }
         }
         &-login {
-            margin-left: 30px;    
+            margin-left: 30px;
         }
     }
 }

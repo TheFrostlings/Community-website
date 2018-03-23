@@ -6,12 +6,12 @@ import { HttpClientModule }     from '@angular/common/http';
 import { AppComponent }         from './app.component';
 
 import 'hammerjs';
-import { NgxGalleryModule }     from 'ngx-gallery';
 
 import { MemberService }        from './services/member.service';
 import { ServerService }        from './services/server.service';
-import { SliderService }        from './services/slider.service';
 import { TwitchService }        from './services/twitch.service';
+import { NewsService }          from './services/news.service';
+
 
 import { HeaderComponent }      from './header/header.component';
 import { MenuComponent }        from './header/menu/menu.component';
@@ -19,9 +19,9 @@ import { LogoMenuComponent }    from './header/logo-menu/logo-menu.component';
 import { SocialMenuComponent }  from './header/social-menu/social-menu.component';
 
 import { LoginComponent }       from './login/login.component';
+import { DiscordComponent }     from './home/discord/discord.component';
 
 import { HomeComponent }        from './home/home.component';
-import { SliderComponent }      from './home/slider/slider.component';
 
 import { ArkComponent }         from './community/ark/ark.component';
 import { MembersComponent }     from './community/ark/members/members.component';
@@ -31,8 +31,8 @@ import { SortOnlinePipe }       from './pipes/sort-online.pipe';
 import { SortNamePipe }         from './pipes/sort-name.pipe';
 import { SafePipe }             from './pipes/safe.pipe';
 
-import { DiscordComponent }     from './home/discord/discord.component';
 import { TwitchComponent }      from './community/twitch/twitch.component';
+import { NewsComponent } from './home/news/news.component';
 
 
 const appRoutes: Routes = [
@@ -54,7 +54,6 @@ const appRoutes: Routes = [
     MenuComponent,
     LoginComponent,
     HomeComponent,
-    SliderComponent,
     MembersComponent,
     ArkComponent,
     SortOnlinePipe,
@@ -64,11 +63,11 @@ const appRoutes: Routes = [
     TwitchComponent,
     SafePipe,
     SocialMenuComponent,
-    LogoMenuComponent
+    LogoMenuComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
-    NgxGalleryModule,
     HttpClientModule,
     RouterModule.forRoot(
         appRoutes,
@@ -76,10 +75,10 @@ const appRoutes: Routes = [
     )
   ],
   providers: [
-        SliderService,
         MemberService,
         ServerService,
-        TwitchService
+        TwitchService,
+        NewsService
     ],
   bootstrap: [AppComponent]
 })

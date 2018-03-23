@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Dosis:800');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 //font
 $font-fam: 'Dosis', sans-serif;
+$font-date: 'Roboto', sans-serif;
 
 //Sizes
 $padding-top: 3vh;
@@ -27,6 +29,7 @@ $global-grey: #282828;
 $global-dark-grey: #161616;
 
 $global-pink: #FD2850;
+$global-ice: #00ffff;
 $global-light-blue: lightblue;
 
 //Main
@@ -35,19 +38,27 @@ $main-container: $global-dark-grey;
 //Header
 
     //social-menu
-    $social-update: $global-pink;
+    $social-update: $global-ice;
     $social-item-text: $global-white;
-    $social-item-text-hover: $global-pink;
+    $social-item-text-hover: $global-ice;
     $social-date-text: $global-light-grey;
     $social-media: $global-light-grey;
-    $social-media-hover: $global-pink;
+    $social-media-hover: $global-ice;
 
     //Menu
+    $menu-scew: $global-ice;
     $menu-item: $global-grey;
-    $menu-hover: $global-pink;
+    $menu-hover: $global-ice;
     $menu-text:  $global-light-grey;
     $menu-border: $global-dark-grey;
     $menu-hover-text: $global-black;
+
+//Home
+
+    //news
+    $news-item: $global-ice;
+    $news-item-box-text: $global-white;
+    $news-item-box-title-hover: $global-ice;
 
 //Ark
 $ark-main: $global-light-blue;
