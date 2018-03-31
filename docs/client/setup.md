@@ -6,9 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 - Download [Node](https://nodejs.org/en/).
 - Run `npm install -g @angular/cli` in your commandline.
-- Copy project off of a USB.
-- Run `npm install` in your commandline on your project file.
-- Run `ng serve` in your commandline on your project file.
+- Run `git clone https://github.com/TheFrostlings/Community-website.git` in your commandline of the place you want the project.
+- Run `npm install` in your commandline on your project client file.
+- Run `ng serve` in your commandline on your project client file.
 
 ## Development server
 
