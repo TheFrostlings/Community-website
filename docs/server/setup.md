@@ -6,3 +6,5 @@
    - [Windows](https://www.microsoft.com/net/learn/get-started/windows)
 
 2. From the server map execute ``dotnet run`` or run the debugger from your IDE.
+
+3. Install Postgresql
