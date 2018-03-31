@@ -1,4 +1,4 @@
 # TheFrostlings
 
- - [Setup Client](https://github.com/cryosgurl/frostlings/blob/master/docs/client/setup.md)
- - [Server Setup](https://github.com/cryosgurl/frostlings/blob/master/docs/server/setup.md)
+ - [Client Setup](https://github.com/TheFrostlings/Community-website/blob/master/docs/client/setup.md)
+ - [Server Setup](https://github.com/TheFrostlings/Community-website/blob/master/docs/server/setup.md)
