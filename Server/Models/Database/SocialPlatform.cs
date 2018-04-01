@@ -13,7 +13,7 @@ namespace Server.Models.Database
 		public string Name { get; set; }
 
 		public string Icon  { get; set; }
-		public long   Image { get; set; }
+		public string Image { get; set; }
 
 		// Relations
 		public virtual ICollection<UserProfile> Profiles     { get; set; }

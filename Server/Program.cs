@@ -5,8 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Server.Models;
 
 namespace Server
 {
@@ -14,7 +17,14 @@ namespace Server
     {
         public static void Main(string[] args)
         {
-            BuildWebHost(args).Run();
+            var host = BuildWebHost(args);
+            
+            using( var serviceScope = host.Services.CreateScope() )
+            {
+                serviceScope.ServiceProvider.GetService<DatabaseContext>().EnsureSeeded();
+            }
+            
+            host.Run();
         }
 
         public static IWebHost BuildWebHost(string[] args) => WebHost.CreateDefaultBuilder(args)
