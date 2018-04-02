@@ -40,8 +40,8 @@ Thumbs.db
 #                                                               #
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-/Server/bin
-/Server/obj
+/Server/*/bin
+/Server/*/obj
 
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                                                               #
