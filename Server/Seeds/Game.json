@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "Counter Strike: Global Offensive",
+    "SteamId": "730",
+    "Abbreviation": "CSGO"
+  },
+  {
+    "Name": "Overwatch"
+  },
+  {
+    "Name": "Rocket League",
+    "SteamId": "252950",
+    "Abbreviation": "RL"
+  },
+  {
+    "Name": "Player Unknown Battlegrounds",
+    "SteamId": "578080",
+    "Abbreviation": "PUBG"
+  },
+  {
+    "Name": "ARK: Survival Evolved",
+    "SteamId": "346110",
+    "Abbreviation": "ARK"
+  },
+  {
+    "Name": "RuneScape",
+    "Abbreviation": "RS"
+  }
+]

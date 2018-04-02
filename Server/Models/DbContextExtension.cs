@@ -23,6 +23,8 @@ namespace Server.Models
 		{
 			context.SeedTable(context.SocialPlatforms);
 			context.SeedTable(context.DiscordUsers);
+			context.SeedTable(context.EventTypes);
+			context.SeedTable(context.Games);
 		}
 
 		private static void SeedTable<T>(this DbContext context, IEnumerable<T> dbSet) where T : class
@@ -45,7 +47,6 @@ namespace Server.Models
 			{
 				File.Create(path);
 				Console.WriteLine("ERROR: Could not find file '" + path + "', created it for you.");
-				Console.WriteLine(e);
 			}
 			catch( Exception e )
 			{
