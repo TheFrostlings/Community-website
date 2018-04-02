@@ -42,6 +42,7 @@ Thumbs.db
 
 /Server/*/bin
 /Server/*/obj
+/Server/FrostlingsBot/config.env.json
 
  # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #                                                               #
