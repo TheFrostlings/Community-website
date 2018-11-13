@@ -1,0 +1,29 @@
+[
+  {
+    "Username": "TheCryosGurl",
+    "DiscordTag": "#2906",
+    "DiscordUid": "139771987231899648",
+    "Profiles": [
+      {
+        "PlatformId": 4,
+        "Username": "TheCryosGurl",
+        "Url": "https://www.twitch.tv/thecryosgurl"
+      },
+      {
+        "PlatformId": 1,
+        "Username": "TheCryosGurl"
+      }
+    ]
+  },
+  {
+    "Username": "Codex404 (Stefan)",
+    "DiscordTag": "#2564",
+    "DiscordUid": "134760450012348416",
+    "Profiles": [
+      {
+        "PlatformId": 1,
+        "Username": "stefannafest_1995"
+      }
+    ]
+  }
+]

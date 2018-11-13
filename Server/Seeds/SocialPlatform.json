@@ -1,0 +1,31 @@
+[
+  {
+    "Name": "Steam",
+    "Icon": "fa-steam"
+  },
+  {
+    "Name": "Origin"
+  },
+  {
+    "Name": "Battle.net"
+  },
+  {
+    "Name": "Twitch",
+    "Icon": "fa-twitch"
+  },
+  {
+    "Name": "uPlay"
+  },
+  {
+    "Name": "Playstation Network",
+    "Icon": "fa-playstation "
+  },
+  {
+    "Name": "Xbox",
+    "Icon": "fa-xbox"
+  },
+  {
+    "Name": "Twitter",
+    "Icon": "fa-twitter"
+  }
+]
